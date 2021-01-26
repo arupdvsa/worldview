@@ -5,14 +5,22 @@
             "title":    "Land Surface Reflectance",
             "subtitle": "Harmonized Landsat Sentinel-2",
             "sources": {
-                "HLS": {
-                    "id": "Harmonized Landsat Sentinel-2",
-                    "title": "Harmonized Landsat Sentinel-2",
+                "HLS-Landsat": {
+                    "id": "Harmonized Landsat Sentinel-2 Landsat 8/OLI",
+                    "title": "HLS: Landsat 8/OLI",
                     "description": "multi-mission/hls/reflectance",
                     "image": "",
                     "settings": [
-                        "HLS_S30_Nadir_BRDF_Adjusted_Reflectance",
                         "HLS_L30_Nadir_BRDF_Adjusted_Reflectance"
+                    ]
+                },
+                "HLS-Sentinel": {
+                    "id": "Harmonized Landsat Sentinel-2 Sentinel 2A & 2B/MSI",
+                    "title": "HLS: Sentinel 2A & 2B/MSI",
+                    "description": "multi-mission/hls/reflectance",
+                    "image": "",
+                    "settings": [
+                        "HLS_S30_Nadir_BRDF_Adjusted_Reflectance"
                     ]
                 }
             }

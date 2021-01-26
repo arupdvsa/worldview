@@ -8,7 +8,7 @@
       "tags": "",
       "group": "overlays",
       "layergroup": [
-        "hls"
+        "reference"
       ],
       "product": "",
       "type": "vector",
